@@ -1,0 +1,24 @@
+### JetBrains/CLion ###
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+### Compiled Binaries and Objects ###
+*.o
+*.out
+*.exe
+*.obj
+
+# OSTEP specific: sometimes exercises generate these
+*.tmp
+*.bin
+
+### OS Specific ###
+.DS_Store
+Thumbs.db
+
+### CMake ###
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
